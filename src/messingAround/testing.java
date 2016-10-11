@@ -18,7 +18,7 @@ public class testing {
 	
 	 public static void main(String[] args) throws Exception {
 	        // creates an input stream for the file to be parsed
-		 	String file = "Wheel.java";
+		 	String file = "StockController.java";
 	        FileInputStream in = new FileInputStream(file);
 	       
 	        CompilationUnit cu;
@@ -42,9 +42,7 @@ public class testing {
 	        new ClassDiagramVisitor().visit(cu,null);
 	    }
 
-	    /**
-	     * Simple visitor implementation for visiting MethodDeclaration nodes. 
-	     */
+	   
 	 
 	
 	    
